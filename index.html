@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>guess the number game</title>
+    <link rel="stylesheet" href="./guess number.css">
+</head>
+
+<body>
+    <div class="pagecontainer">
+        <div class="header">
+            
+            <p class="parameter"> Chooese number between (1 - 20) </p>
+        </div>
+        <h1 class="guesstext"> Guess the number! </h1>
+        <div class="number">
+            <p id="q"> ? </p>
+        </div>
+        <button class="again"> Play Again! </button>
+        <div class="bottomcontainer">
+            <div class="inputcheck">
+                <input type="number" placeholder="No." class="guess">
+                <button class="check"> Check! </button>
+            </div>
+            <div class="text">
+                <p class="message"> Start guessing...</p>
+                <div class="schc">
+                <p class="label-score"> Score: <span class="score"> 20</span> </p>
+                <p class="label-highscore"> Highscore: <span class="highscore"> 0 </span> </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <script src="./guess number.js"></script>
+</body>
+
+</html>
